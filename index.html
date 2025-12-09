@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Instant Dog Serotonin</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="container">
+      <header>
+        <h1>Instant Dog Serotonin 🐶</h1>
+        <p>Your daily dose of happiness, one click away.</p>
+      </header>
+
+      <div class="card">
+        <div id="image-container" class="image-wrapper">
+          <div class="placeholder">
+            <span>Waiting for a good boy...</span>
+          </div>
+          <img id="dog-image" src="" alt="A cute dog" style="display: none" />
+        </div>
+
+        <div class="controls">
+          <button id="fetch-btn" class="btn primary">Fetch New Friend</button>
+        </div>
+      </div>
+
+      <footer>
+        <p>
+          Powered by
+          <a href="https://dog.ceo/dog-api/" target="_blank">Dog API</a>
+        </p>
+      </footer>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
